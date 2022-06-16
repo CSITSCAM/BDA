@@ -39,7 +39,7 @@ public class WordCount1 {
 				sum+=val.get();
 			result.set(sum);
 			int r=result.get();
-			if (r>2)
+			if (r>5)
 				context.write(key, result);
 		}
 	}
