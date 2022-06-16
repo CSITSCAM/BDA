@@ -1,0 +1,17 @@
+>mongo
+
+>use cvr
+
+>db.createCollection('Student Details')
+
+>db.studentdetails.insertMany({..................................................})
+
+>db.studentdetails.update({year:3}, {$set:{year:4}})
+
+>db.studentdetails.deleteMany({address:'Hyderabad'})
+
+>db.studentdetails.remove({address:'Hyderabad'})
+
+db.studentdetails.replaceOne({"_id": ObjectId("")},{$set:{year:3}})
+
+db.studentdetails.find()
