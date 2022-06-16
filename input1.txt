@@ -1,0 +1,1 @@
+hadoop cluster is a hadoop hdfs hadoop cluster
